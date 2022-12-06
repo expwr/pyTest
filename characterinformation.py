@@ -45,7 +45,7 @@ def main():
     print (f'Level: {boss.get_level()}')
     print (f'HP: {boss.get_hp()}')
     print (f'Attack Damage: {boss.get_attack_damage()}')
-    print (f'Lifespan: {boss.get_lifespan():,.2f} attacks')
+    print (f'Lifespan: {boss.get_lifespan():,.f} attacks')
 
 if __name__ == '__main__':
  main()
